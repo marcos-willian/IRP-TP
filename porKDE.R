@@ -31,6 +31,7 @@ partition <- function(nfolds,  data){
 library(caTools) #Função sample.split
 library(naivebayes)
 require(stats)
+set.seed(0)
 
 # Carregando a Base de dados
 dataSet = list()
