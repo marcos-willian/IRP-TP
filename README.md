@@ -1,5 +1,13 @@
 # IRP-TP
-Algoritmos usados para a classificação de imagens. Utiliza a linguagem R e implementa três métodos: Bayes, KDE e CNN. O problema foi proposto por um tabalho da matéria de Introdução à Reconhecimento de Padrões da UFMG
+Algoritmos usados para a classificação de imagens. Utiliza a linguagem R e implementa três métodos: Bayes, KDE e CNN. O problema foi proposto por um tabalho da matéria de Introdução à Reconhecimento de Padrões da UFMG.
+
+## Descrição do repositório
+`trainReduzido.csv` : Amostras para treinamento
+`validacao.csv`: Amostras para validação
+`porKDE.R`: Código em R que aplica o método KDE para solução do problema de classificação
+`porBayes.R`: Código em R que aplica o método Bayes para solução do problema de classificação
+`porCNN.R`: Código em R que aplica o método CNN para solução do problema de classificação
+`output.csv`: Classificaçã do conjunto de validação utilizando a técnica CNN. Este arquivo será utilizado para a classificação da equipe na competição.
 
 ## Especificação do trabalho
 O trabalho deve ser feito em grupos de até 3 pessoas. Cada grupo vai competir com os demais grupos da sala para resolverem este problema de reconhecimento de padrões.
